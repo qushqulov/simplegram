@@ -2,13 +2,10 @@ import os
 
 from dotenv import load_dotenv
 
-from simplegram import Bot
+from simplegram import Updater
 
 
 load_dotenv()
 
-
-bot = Bot(os.getenv("TOKEN"))
-
-for update in bot.get_updates():
-    print(update.update_id)
+updater = Updater(os.getenv("TOKEN"))
+updater.start_polling()
