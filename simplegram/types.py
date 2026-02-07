@@ -26,3 +26,4 @@ class Update:
     def __init__(self, data: dict):
         self.update_id = data["update_id"]
         self.message = Message(data["message"]) if data.get("message") else None
+ 

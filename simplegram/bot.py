@@ -14,7 +14,7 @@ class Bot:
             "text": text,
         }
         response = requests.post(
-            f"{self.base_url}/sendMessage",
+            f"{self.base_url}/sendMessage", 
             data=data,
         )
 

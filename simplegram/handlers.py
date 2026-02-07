@@ -10,7 +10,7 @@ class Handler:
     def handle_update(self, update: Update, bot: Bot):
         raise NotImplementedError
 
-
+ 
 class CommandHandler(Handler):
     def __init__(self, command: str, callback):
         self.command = command

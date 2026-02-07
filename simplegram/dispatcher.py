@@ -17,3 +17,4 @@ class Dispatcher:
             if handler.check_update(update):
                 handler.handle_update(update, self.bot)
                 break
+ 

@@ -5,7 +5,7 @@ from .handlers import CommandHandler, MessageHandler
 from .filters import Filters
 
 
-__version__ = "1.0.0"
+__version__ = "1.0.0" 
 __all__ = [
     "Updater",
     "Update",

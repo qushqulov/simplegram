@@ -13,3 +13,4 @@ class Filters:
     @staticmethod
     def location(message: Message) -> bool:
         return message.location is not None
+ 

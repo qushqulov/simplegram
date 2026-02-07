@@ -8,7 +8,7 @@ class Updater:
     def __init__(self, token: str):
         self.token = token
         self.bot = Bot(self.token)
-        self.dispatcher = Dispatcher(self.bot)
+        self.dispatcher = Dispatcher(self.bot) 
         self.offset = None
         self.running = False
 
